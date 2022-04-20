@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoControls.MainPage">
+
+    <StackLayout>
+
+        
+        <!--<Label Text="Registro de Personas" FontFamily="Bold" FontSize="Large"></Label>
+        <Entry Placeholder="Nombres"   />
+        <Entry Placeholder="Apellidos" />
+        <Label Text="Fecha Nacimiento"/>-->
+        <DatePicker x:Name="dtpFecha" MaximumDate="01/01/2025"  MinimumDate="01/01/2020" />
+        <Button Text="Registrar" VerticalOptions="Center"  BackgroundColor="SpringGreen" Margin="50" Clicked="Button_Clicked"/>
+        <!--<Editor Text="Mi primer Editor" HeightRequest="100"  BackgroundColor="Orange" ></Editor>-->
+        
+            <Image Source="https://aka.ms/campus.jpg"/>
+            <Image Source="imagen.png"/>
+        
+    </StackLayout>
+
+</ContentPage>
